@@ -1,6 +1,6 @@
 print("bienvenido a la tienda virtual") 
 historial = {}
-pregunta = input("Para inciar el registro de una nueva venta, escriba 'si': ")
+pregunta = input("Para inciar el registro de una nueva venta, escriba 'si': ").strip().lower()
 status = ("si", "yes")
 while pregunta in status : #while ciclo repetitivo, se ejecuta mientras la condición sea verdadera, en este caso, mientras la variable pregunta sea igual a "si" o "yes"    
     total_valor = 0
